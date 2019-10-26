@@ -27,7 +27,7 @@
       
    - Setelah melakukan verifikasi, anda akan di alihkan ke page GitHub untuk selanjutnya membuat Repository baru, masukkan nama Repository anda dan klik **create repository**.
    
-      ![2019-10-26 (19) projrct](https://user-images.githubusercontent.com/57028466/67624243-c07c5c80-f7f3-11e9-95c0-1f78a2620a46.png)
+     ![Capture 10 blablabla](https://user-images.githubusercontent.com/57028466/67626381-52925e00-f810-11e9-9021-64a5aed9a5aa.png)
       
    - Berikut tampilan Repository baru
    
@@ -65,7 +65,7 @@
    
       ![2019-10-26 (20) git init](https://user-images.githubusercontent.com/57028466/67624582-02a79d00-f7f8-11e9-9b41-3625ab85021f.png)
 
- **4. Menambahkan File Baru pada Repository**
+ **Menambahkan File Baru pada Repository**
  
    - Buat satu file README.md dengan menggunakan perintah 
    
@@ -82,7 +82,7 @@
       
       ![2019-10-26 (24) git adddddd](https://user-images.githubusercontent.com/57028466/67624830-ac3c5d80-f7fb-11e9-9cea-2ce411890228.png)
       
- **5. Menyimpan Perubahan ke Database (***Commit***)**
+ **Menyimpan Perubahan ke Database (***Commit***)**
  
    - Simpan perubahan kedalam database repository local, gunakan perintah **git commit -m “komentar commit”**
       
@@ -92,8 +92,23 @@
      
      ![2019-10-26 (22) commit](https://user-images.githubusercontent.com/57028466/67624922-dcd0c700-f7fc-11e9-89ea-b80fbe849f14.png)
      
- **6. Menambahkan Remote Repository**
+**Membuatan Repository Server** 
  
+   - Buka http://github.com
+   - klik tombol **start a project**, atau menu icon (**+**) klik New Repository
+   
+      ![2019-10-26 (17) 0dyfjhyfjkvyjhg](https://user-images.githubusercontent.com/57028466/67626159-0f82bb80-f80d-11e9-8a2a-191baa163760.png)
+      
+   - Isi nama repositorynya, misal: **Project001**. Kemudian klik **crate repository**
+   
+      ![2019-10-26 (37)](https://user-images.githubusercontent.com/57028466/67626202-a780a500-f80d-11e9-83b8-3a0c3a55c93c.png)
+   
+   - Kemudian akan muncul
+      
+      ![2019-10-26 (39)](https://user-images.githubusercontent.com/57028466/67626229-1b22b200-f80e-11e9-96f1-abddf0f741af.png)
+      
+ **Menambahkan Remote Repository**
+      
    - Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user. 
    - Untuk menambahkan remote repository server, gunakan perintah **git remote add origin [url]**
    
@@ -101,7 +116,7 @@
       
       ![2019-10-26 (24) server](https://user-images.githubusercontent.com/57028466/67625221-d7757b80-f800-11e9-976c-d2ed6fa15c76.png)
       
- **7. Mengirim Perubahan ke Server (***Push***)**
+ **Mengirim Perubahan ke Server (***Push***)**
  
    - Gunakan Perintah **git push**
    
@@ -119,7 +134,7 @@
    
       ![2019-10-26 (23) perubahan](https://user-images.githubusercontent.com/57028466/67625357-b9107f80-f802-11e9-8fa0-6d8a3a5d4b9d.png)
       
-**8. Clone Repository**
+**Clone Repository**
     
    - Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
    - Dengan menggunakan perintah **git clone [url]**
