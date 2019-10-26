@@ -143,6 +143,18 @@
       
       ![2019-10-26 (25) CLONE](https://user-images.githubusercontent.com/57028466/67625390-553a8680-f803-11e9-856e-938133d96bc8.png)
       
+   - Clone Repository dapat juga dilakukan dengan cara berikut:
+        - Pada bagian halaman repository, klik tombol **Clone or Download**, lalu copy link yang terdapat pada kolom teks yang telah disediakan. 
+            ![2019-10-26 (44)](https://user-images.githubusercontent.com/57028466/67626683-8cfdfa00-f814-11e9-9fd5-e1f64eb4233a.png)
+            
+            
+***Sekian dan Terimakasih***            
+            
+
+        
+            
+      
+      
       
       
     
